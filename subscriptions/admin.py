@@ -1,6 +1,5 @@
 from django.contrib import admin
-from subscriptions.models import (Type, Company, Billing, Category, 
-                                  Service, Plan, Subscription)
+from subscriptions.models import Company, Type, Billing, Category, Service, Plan, Subscription
 
 from django.utils import timezone
 from datetime import datetime, timedelta
