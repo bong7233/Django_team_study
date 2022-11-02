@@ -11,7 +11,7 @@ class Alarm(Baseclass):
 
     def __str__(self):
         return f"({self.alarm})의 히스토리"
-    
+
     class Meta:
         verbose_name = '알림 정보'
         verbose_name_plural = "알림 정보 목록"
