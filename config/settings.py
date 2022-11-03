@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'alarms',
     'subscriptions',
     'users',
+    'django_extensions',
     
 ]
 
